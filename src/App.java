@@ -1,5 +1,8 @@
 public class App {
     public static void main(String[] args) throws Exception {
-        System.out.println("Hello, World!");
+        Outputs out1 = new Outputs();
+        out1.printek("A számítás eredménye: ");
+        System.out.print(Smath.pow(8, 13)+"\n"); 
+        Konvert.konvertal();
     }
 }
